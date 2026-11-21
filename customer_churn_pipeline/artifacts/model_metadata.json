@@ -1,0 +1,80 @@
+{
+  "champion_model": "Random Forest",
+  "best_hyperparameters": {
+    "classifier__max_depth": 6,
+    "classifier__min_samples_split": 2,
+    "classifier__n_estimators": 100
+  },
+  "cv_roc_auc": 0.8473387654564981,
+  "test_roc_auc": 0.8420793613888243,
+  "test_pr_auc": 0.6486529394266127,
+  "optimal_decision_threshold": 0.24999999999999994,
+  "default_metrics": {
+    "threshold": 0.5,
+    "roc_auc": 0.8420793613888243,
+    "pr_auc": 0.6486529394266127,
+    "accuracy": 0.7452093683463449,
+    "precision": 0.5126903553299492,
+    "recall": 0.8101604278074866,
+    "f1": 0.627979274611399,
+    "brier_score": 0.1659128350434443,
+    "true_positives": 303,
+    "false_positives": 288,
+    "true_negatives": 747,
+    "false_negatives": 71
+  },
+  "optimal_threshold_metrics": {
+    "threshold": 0.24999999999999994,
+    "roc_auc": 0.8420793613888243,
+    "pr_auc": 0.6486529394266127,
+    "accuracy": 0.6039744499645139,
+    "precision": 0.39823008849557523,
+    "recall": 0.9625668449197861,
+    "f1": 0.5633802816901409,
+    "brier_score": 0.1659128350434443,
+    "true_positives": 360,
+    "false_positives": 544,
+    "true_negatives": 491,
+    "false_negatives": 14
+  },
+  "business_impact": {
+    "customer_lifetime_value": 720.0,
+    "retention_offer_cost": 50.0,
+    "retention_success_rate": 0.6,
+    "optimal_net_savings": 110320.0,
+    "default_net_savings": 101345.99999999999,
+    "savings_lift_over_default": 8974.000000000015,
+    "optimal_targeted_customers": 904,
+    "optimal_retained_customers": 216.0,
+    "optimal_roi_percent": 244.07079646017698
+  },
+  "all_models_summary": {
+    "Logistic Regression": {
+      "cv_roc_auc": 0.8460814770414229,
+      "test_roc_auc": 0.8415562272339765,
+      "test_pr_auc": 0.6325136355498462,
+      "default_f1": 0.6123301985370951,
+      "optimal_threshold": 0.29,
+      "optimal_f1": 0.5838198498748958,
+      "optimal_net_savings": 109950.0
+    },
+    "Random Forest": {
+      "cv_roc_auc": 0.8473387654564981,
+      "test_roc_auc": 0.8420793613888243,
+      "test_pr_auc": 0.6486529394266127,
+      "default_f1": 0.627979274611399,
+      "optimal_threshold": 0.24999999999999994,
+      "optimal_f1": 0.5633802816901409,
+      "optimal_net_savings": 110320.0
+    },
+    "Gradient Boosting": {
+      "cv_roc_auc": 0.8488155490916169,
+      "test_roc_auc": 0.8455565889069726,
+      "test_pr_auc": 0.6598933454279514,
+      "default_f1": 0.5823170731707317,
+      "optimal_threshold": 0.12,
+      "optimal_f1": 0.5770171149144254,
+      "optimal_net_savings": 110278.0
+    }
+  }
+}
